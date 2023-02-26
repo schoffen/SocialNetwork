@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Social Network</string>
+    <string name="email">Email</string>
+    <string name="password">Senha</string>
+    <string name="login">Entrar</string>
+    <string name="loginCreateAccount">Não tem uma conta? Clique aqui!</string>
+</resources>
