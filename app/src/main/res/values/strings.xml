@@ -11,4 +11,7 @@
     <string name="home">Home</string>
     <string name="main_fragment_tag">mainFragmentContainer</string>
     <string name="logout">Sair</string>
+    <string name="commentExample">Nossa! Amei a sua foto.</string>
+    <string name="commentReply">Responder</string>
+    <string name="commentProfileNameExample">Spider-man</string>
 </resources>
