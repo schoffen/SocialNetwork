@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp">
 
     <ImageView
         android:id="@+id/postImage"
@@ -38,14 +39,14 @@
         app:tint="@color/dark_blue" />
 
     <androidx.recyclerview.widget.RecyclerView
-        tools:listitem="@layout/item_post_comment"
-        tools:itemCount="1"
         android:id="@+id/postCommentSection"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
         android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/postComment" />
+        app:layout_constraintTop_toBottomOf="@id/postComment"
+        tools:itemCount="1"
+        tools:listitem="@layout/item_post_comment" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
